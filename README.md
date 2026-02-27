@@ -34,49 +34,29 @@ TBD
 
 ## installation
 
-TBD
-
-## getting started
-
-TBD
-
-## setup
-
-### package manager
-
-install `asdf` package manager first.
+install rust with asdf.
 
 ```sh
-# download asdf binary from github release page
-# https://github.com/asdf-vm/asdf/releases
+asdf plugin add rust
+asdf list all rust
+asdf install rust stable
 ```
 
-check plugins.
+refresh asdf paths.
 
 ```sh
-asdf plugin list
+asdf reshim
 ```
 
-add a plugin for a targeted side project.
+anchor versions in `.tool-versions`.
 
-```sh
-asdf plugin add [language]
-asdf install [language]
 ```
-
-set it.
-
-```sh
-asdf set [language] [version]
-asdf reshim [language]
-```
-
-check it.
-
-```sh
-asdf current [language]
+rust stable
+rustc 1.93.1
+rustup 1.28.2
+cargo 1.93.1
 ```
 
 ## reference
 
-TBD
+- [Trickcal:Chibi Go 공략 - 모집 가이드](https://www.bluestacks.com/ko/blog/game-guides/trickcalchibi-go/tlcg-gacha-guide-ko.html)
