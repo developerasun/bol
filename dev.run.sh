@@ -7,18 +7,18 @@ BLUE='\033[0;34m'
 NC='\033[0m' # No Color (색상 초기화)
 
 if [ -z "${FLAG}" ]; then
-  echo -e "${RED}[LOG]${NC} implement non flag"  
-  exit 1
+  echo -e "${GREEN}[LOG]${NC} Executing main application"  
+  cargo run
 fi 
 
 case "${FLAG}" in
-  --base)
-  echo -e "${RED}[LOG]${NC} implement base flag"  
-  exit 1
+  --test)
+  echo -e "${BLUE}[LOG]${NC} Running rust test suites"  
+  cargo test
   ;;
 
   *)
-  echo -e "${RED}[LOG]${NC} implement default flag"  
+  echo -e "${RED}[LOG]${NC} invalid flags"  
   exit 1
   ;;
 esac
