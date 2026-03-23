@@ -17,13 +17,13 @@ Gacha calculator for [Trickcal: Chibo Go](https://trickcal.biligames.com/en/) <b
 
 </div>
 
-# Table of contents
+## Table of contents
 
 - [introduction](#introduction)
 - [installation](#installation)
 - [reference](#reference)
 
-## introduction
+### introduction
 
 <table>
   <tr>
@@ -67,7 +67,7 @@ rustup 1.28.2
 cargo 1.93.1
 ```
 
-## reference
+### reference
 
 - [Trickcal:Chibi Go 공략 - 모집 가이드](https://www.bluestacks.com/ko/blog/game-guides/trickcalchibi-go/tlcg-gacha-guide-ko.html)
 - [Easy Rust Korean / Rust in a Month of Lunches 한국어판](https://youtube.com/playlist?list=PLfllocyHVgsSJf1zO6k6o3SX2mbZjAqYE&si=jLtomnTOG4PlWIpS)
